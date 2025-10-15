@@ -1,0 +1,56 @@
+.body_h1{
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+ 
+}
+
+.body_h2{
+ background-color: green;
+ margin: 10px;
+}
+
+
+
+.body_h2 {
+display: flex;
+align-items: flex-start;
+flex-wrap: wrap;
+align-content: flex-start;
+}
+
+.body_h2 .disease1{
+background-color: cadetblue ;
+margin: 10px;
+width: 40%;
+}
+
+.body_h2 h1{
+    width: 100%;
+    padding: 20px;
+}
+
+.body_h2 img{
+    width: 100%;
+    height: 200px;
+
+
+}
+
+.body{
+    display: flex;
+    justify-content: space-around;
+    margin: 20px 10%;
+}
+.body .body_h1 , .body_h2{
+    width: 45%;
+    background-color: var(--fourth-bg-color);
+    box-shadow: 2px 1px 6px blue;
+    text-align: center;
+}
+.body_h1 h1 {
+    margin: 22px;
+    color: blue;
+}
+

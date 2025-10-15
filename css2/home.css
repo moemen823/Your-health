@@ -1,0 +1,156 @@
+
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+:root {
+  --main-bg-color: #3674B5;
+  --secondary-bg-color: #578FCA;
+  --third-bg-color: #A1E3F9;
+  --fourth-bg-color: #D1F8EF;
+  --text-color: #fff;
+  --dark-text: #333;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #c3dee4;
+  margin: 0;
+  padding: 0;
+  direction: rtl;
+}
+/* Styling landing page */
+
+.landing {
+  height: 90vh;
+  background-image: url("../images/w.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  direction: ltr;
+
+  padding: 10%;
+  padding-right:50% ;
+  margin-bottom: 5%;
+}
+
+.landing h2 {
+  color: var(--main-bg-color);
+  font-size: 50px;
+  margin-bottom: 20px;
+  padding-left: 9%;
+}
+.landing p {
+  font-size: 25px;
+}
+
+
+.diseases, .why-us {
+  padding: 40px 20px;
+  text-align: center;
+}
+
+.why-us{
+  background-color: #578FCA;
+}
+
+
+h2 {
+  color: #0077b6;
+  font-size: 28px;
+  margin-bottom: 20px;
+}
+.why-us h2{
+  color:black;
+}
+.disease-list {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 50%;
+}
+
+.disease {
+  background: white;
+  padding: 15px;
+  margin: 20px;
+  border-radius: 10px;
+  width: 80%;
+  /* max-width: 500px; */
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+  font-size: 18px;
+}
+.main-dieases{
+  display: flex;
+  justify-content: space-around;
+  margin-left: 10%;
+  margin-right: 10%;
+  
+}
+
+img {
+  width: 100%;
+}
+
+.diseases h2{
+  color:black;
+  font-size: 30px;
+}
+
+
+.why-us ul{
+  list-style: none;
+  display: flex;
+  margin-left:10% ;
+  margin-right: 10%;
+}
+.why1{
+  background: white;
+  padding: 15px;
+  margin: 20px;
+  border-radius: 10px;
+  width: 80%;
+  /* max-width: 500px; */
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+  font-size: 18px
+}
+
+.benefits {
+  background-color: #cfeaf6;
+  padding: 40px 20px;
+  text-align: center;
+}
+
+.benefits h2 {
+  font-size: 28px;
+  color: #0077b6;
+  margin-bottom: 20px;
+}
+
+.benefits-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  
+}
+
+.benefit-box {
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  width: 250px; 
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.benefit-box img {
+  width: 60px; 
+  height: 60px;
+  margin-bottom: 10px;
+}
+.benefit-box img{
+  width: 60%;
+  height: 60%;
+}
+
